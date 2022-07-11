@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    border: 1px solid gray;
+    height: 65vh;
+    width: 25%;
+    margin: 15px  auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+img{
+    padding: 30px 0px 10px;
+}
+
+.container1{
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin: 5px;
+    padding: 5px;
+    width: 20vw;
+    height: 25px;
+}
+
+.btn{
+    width: 20.8vw;
+    background-color: rgb(77, 148, 255);
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+    text-decoration: bold;
+    color: white;
+    font-weight: bold;
+}
+
+div #or{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 15px 0px;
+    color: rgb(77, 148, 255);
+}
+.fp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color: gray;
+}
+
+.container2{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 23.5%;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.signup{
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(77, 148, 255);
+}
